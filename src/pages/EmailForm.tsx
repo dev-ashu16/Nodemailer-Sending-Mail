@@ -121,7 +121,7 @@ export default function EmailForm() {
       
       <div className="mb-4">
         <textarea 
-          rows="4"
+        rows={4}
           placeholder="Message"
           {...formik.getFieldProps('message')}
           className={`w-full p-2 border ${formik.touched.message && formik.errors.message ? 'border-red-500' : 'border-gray-300'} rounded focus:outline-none focus:border-blue-500`}

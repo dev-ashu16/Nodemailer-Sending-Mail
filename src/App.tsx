@@ -1,4 +1,4 @@
-import React from 'react';
+
 import EmailForm from './pages/EmailForm';
 
 function App() {
